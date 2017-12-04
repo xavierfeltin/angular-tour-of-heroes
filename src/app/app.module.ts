@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 
@@ -23,7 +24,8 @@ import { MessageService } from './message.service';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
